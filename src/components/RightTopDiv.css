@@ -1,0 +1,75 @@
+.right{
+    display: flex;
+    /* gap: -100px; */
+}
+.right-top-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #969696;
+    /* margin-left: 0px;/ */
+    margin-right: 70px;
+  }
+  
+  .question {
+    margin-top:  20px; ;
+    display: flex;
+    flex-direction: column;
+     height: 170px;
+     justify-content:space-between;
+         align-items: center; /* Align items vertically */
+    width: 100%; /* Ensure it uses the full width */
+   
+    
+  }
+  
+  .question img {
+    /* margin-right: 20px; */
+    margin-left: -10px; /* Add some space between the image and the about div */
+  }
+  .question button{
+    background: transparent;
+    border: none; 
+  }
+  .about {
+    display: flex;
+    align-items: center; /* Center buttons vertically */
+    margin-top: 20px;
+    background-color: #171717;
+    height: 50px;
+    width: 550px; /* Adjust width to fit content */
+    border-radius: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* margin-left: -60px; */
+  }
+  
+  .about button {
+    /* margin-top: 2px; */
+    width: 250px; 
+    height: 40px;
+    color: #969696;
+    background-color: #171717 ;
+    border-style: none;
+    border-radius: 16px;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .about button:hover {
+    background-color: rgb(40,41,47); /* Change background color to grey */
+    color: white; /* Change text color to white */
+    box-shadow: 0px 30px 30px 0px rgba(18, 18, 21, 0.905);
+  }
+  .desc {
+ 
+    /* margin-right: 80px; */
+    margin-top: 20px; /* Add spacing between buttons and the heading */
+    text-align: center; 
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left; /* Align text to the left */
+  }
+  

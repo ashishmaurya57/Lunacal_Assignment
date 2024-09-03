@@ -1,0 +1,70 @@
+
+.left-section{
+  width: 800px;
+  height: 689px;
+  margin-top: 60px;
+  margin-left: 29px;
+  background-color: #616161;
+  gap: 0px; /* Note: 'gap' is used for flex and grid containers */
+  border-radius: 27px;
+  border-width: 1px;
+  border: solid #96BEE7 2px; /* Specify the border style */
+ 
+}
+
+.App{
+  display: flex;
+  gap: 30px;
+  position: relative;
+  width: 1500px;
+  height: 820px;
+  
+  background: linear-gradient(180deg, #373E44 -100%, #191B1F 100%);
+  box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 28px;
+}
+.right-section{
+  display: flex;
+  flex-direction: column;
+}
+.top{
+ 
+    width: 720px;
+    height: 316px;
+      background-color: #363C43;
+    margin-top: 60px;
+    border-radius: 27px;
+  border-width: 1px;
+  
+   /* Note: 'gap' is used for flex and grid containers */
+    
+  
+}
+.low{
+ 
+  width: 720px;
+  height: 330px;
+  background-color: #363C43;
+  margin-top: 40px;
+  margin-top: 15px;
+  margin-right: 29px;
+  border-radius: 27px;
+  border-width: 1px;
+  
+  gap: 0px; /* Note: 'gap' is used for flex and grid containers */
+  
+
+}
+hr {
+  margin-top: 20px;
+  background-color: rgb(56, 58, 61);
+  color: rgb(56, 58, 61);
+  border: 2px solid rgb(51, 53, 57);
+  
+  width: 580px;
+  height: 2px;
+  margin-left: 60px;
+  margin-right: -100px;
+  
+  box-shadow: 2px 0px 10px 5px rgba(26, 29, 32, 0.9);
+}
